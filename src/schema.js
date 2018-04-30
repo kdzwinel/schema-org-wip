@@ -30,8 +30,17 @@ function validateObjectKeys(typeOrTypes, keys) {
         return ['Unknown value type'];
     }
 
-    if (!types.every(isKnownType)) {
-        return [];
+    const unknownTypes = types.filter(t => !isKnownType(t));
+
+    unknownTypes
+        .forEach(type => {
+            if (type.indexOf('http://schema.org/') === 0) {
+                errors.push(`Unrecognized schema.org type ${type}`);
+            }
+        })
+
+    if (unknownTypes && unknownTypes.length) {
+        return errors;
     }
 
     types.forEach(type => {
