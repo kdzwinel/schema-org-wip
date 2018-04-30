@@ -1,0 +1,95 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Health",
+        "url": "http://www.health.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://www.health.com/img/logo.png"
+        },
+        "sameAs": [
+            "https://www.facebook.com/health",
+            "https://twitter.com/goodhealth",
+            "https://www.pinterest.com/health/",
+            "https://www.instagram.com/healthmagazine"
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "http://www.health.com/",
+                    "name": "Home",
+                    "image": null
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "http://www.health.com/recipes",
+                    "name": "Recipes",
+                    "image": null
+                }
+            }
+        ]
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Recipe",
+        "name": "These Air Fryer Doughnuts Have Just 4g of Fat",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://cdn-img.health.com/sites/default/files/styles/large_16_9/public/1803wairfryerdonuts.jpg?itok=OB4sOJeM",
+            "width": 1984,
+            "height": 1116
+        },
+        "video": null,
+        "datePublished": null,
+        "description": "If you’re craving doughnuts without the guilt, these yeast-risen rings deliver the same sweet, tender, and crackly sugar glazed goodness thanks to your air fryer. Pro tip: After the doughnuts have risen, use the parchment paper to help gently transfer them into the air fryer. Use two forks to lower them into the glaze for maximum coverage.",
+        "prepTime": null,
+        "totalTime": "PTM",
+        "recipeYield": "Serves 8 (serving size: 1 doughnut)",
+        "recipeIngredient": [
+            "1/4 cup warm water, warmed (100F to 110F)",
+            "1 teaspoon active dry yeast",
+            "1/4 cup , plus 1/2 tsp. granulated sugar, divided",
+            "2 cups (about 8 1/2 oz.) all-purpose flour",
+            "1/4 teaspoon kosher salt",
+            "1/4 cup whole milk, at room temperature",
+            "2 tablespoons unsalted butter, melted",
+            "1  large egg, beaten",
+            "1 cup (about 4 oz.) powdered sugar",
+            "4 teaspoons tap water"
+        ],
+        "recipeInstructions": "Stir together water, yeast, and 1/2 teaspoon of the granulated sugar in a small bowl; let stand until foamy, about 5 minutes. Combine flour, salt, and remaining 1/4 cup granulated sugar in a medium bowl. Add yeast mixture, milk, butter, and egg; stir with a wooden spoon until a soft dough comes together. Turn dough out onto a lightly floured surface and knead until smooth, 1 to 2 minutes. Transfer dough to a lightly greased bowl. Cover and let rise in a warm place until doubled in volume, about 1 hour. Turn dough out onto a lightly floured surface. Gently roll to 1/4-inch thickness. Cut out 8 doughnuts using a 3-inch round cutter and a 1-inch round cutter to remove center. Place doughnuts and doughnuts holes on a lightly floured surface. Cover loosely with plastic wrap and let stand until doubled in volume, about 30 minutes. Place 2 doughnuts and 2 doughnuts holes in single layer in air fryer basket, and cook at 350°F until golden brown, 4 to 5 minutes. Repeat with remaining doughnuts and holes. Whisk together powdered sugar and tap water in a medium bowl until smooth. Dip doughnuts and doughnut holes in glaze; place on a wire rack set over a rimmed baking sheet to allow excess glaze to drip off. Let stand until glaze hardens, about 10 minutes.",
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Paige Grandjean"
+            }
+        ],
+        "aggregateRating": null,
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "238",
+            "carbohydrateContent": "46 g",
+            "cholesterolContent": null,
+            "fatContent": "4 g",
+            "fiberContent": "1 g",
+            "proteinContent": "5 g",
+            "saturatedFatContent": null,
+            "servingSize": null,
+            "sodiumContent": "74 mg",
+            "sugarContent": "22 g",
+            "transFatContent": null,
+            "unsaturatedFatContent": null
+        },
+        "review": null
+    }
+]

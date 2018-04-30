@@ -1,0 +1,17 @@
+{
+  "name": "jsonld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Konrad Dzwinel <kdzwinel@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^3.0.2",
+    "jsonld": "^1.0.1",
+    "jsonlint": "^1.6.3",
+    "jsonlint-mod": "^1.7.2"
+  }
+}

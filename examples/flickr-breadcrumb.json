@@ -1,0 +1,23 @@
+{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@id": "https://www.flickr.com/photos/114346088@N06",
+                "name": "Leticia Grandfils Accino",
+                "image": "https:////c4.staticflickr.com/4/3909/buddyicons/114346088@N06.jpg?1411238972#114346088@N06"
+            }
+        }, {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "@id": "https://www.flickr.com/photos/114346088@N06/14470415458",
+                "name": "image",
+                "image": "https:////c1.staticflickr.com/3/2895/14470415458_e482889081_m.jpg"
+            }
+        }
+    ]
+}

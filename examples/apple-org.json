@@ -1,0 +1,23 @@
+{
+    "@context": "http://schema.org",
+    "@id": "https://www.apple.com/#organization",
+    "@type": "Organization",
+    "name": "Apple",
+    "url": "https://www.apple.com/",
+    "logo": "https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?201804191038",
+    "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "telephone": "+1-800-692-7753",
+            "contactType": "sales",
+            "areaServed": [ "US" ]
+        }
+    ],
+    "sameAs": [
+        "http://www.wikidata.org/entity/Q312",
+        "https://www.youtube.com/user/Apple",
+        "https://www.linkedin.com/company/apple",
+        "https://www.facebook.com/Apple",
+        "https://www.twitter.com/Apple"
+    ]
+}

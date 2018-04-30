@@ -1,0 +1,2 @@
+http://schema.org/docs/jsonldcontext.json
+https://raw.githubusercontent.com/schemaorg/schemaorg/master/data/releases/3.3/schema-properties.csv

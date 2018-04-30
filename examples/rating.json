@@ -1,0 +1,55 @@
+{
+    "aggregateRating": {
+        "reviewCount": 7,
+        "@type": "AggregateRating",
+        "ratingValue": 4.0
+    },
+    "review": [
+        {
+            "reviewRating": {
+                "ratingValue": 5
+            },
+            "datePublished": "2016-09-09",
+            "description": "Nine Kitchen is a one of a kind restaurant on Krakow with their fusion menu of various Asian cuisines. ! I knew I just had to try it when I saw the menu, their restaurant us designed with both modern and elegant influences. The interior was well done and very inviting. I settled on sushi tempura, miso soup, and ramen noodles- some classics that I knew I enjoyed.\n\nFor starters, the sushi tempura was very good! I enjoyed the familiar recipe with new flavors. The miso soup and ramen noodles were very good as well. The noodles were cooked just right, smooth and with amazing spices. All of the flavors in both the soup and the noodles mixed together perfectly to make the perfect meal combination. For dessert, I chose to eat the mango mousse. Of all the mousse I have tasted before, I had never had mango, so I was curious to try it. I loved it! It was fruity and tropical, yet light on in my mouth. It was a great way to end my meal.",
+            "author": "Jarrod B."
+        },
+        {
+            "reviewRating": {
+                "ratingValue": 3
+            },
+            "datePublished": "2018-04-29",
+            "description": "Ok. Ramen was very good, sushi OK. Cheesecake pretty bad unfortunately. \nGood prices I think. Interior was nice, service kind but slow.",
+            "author": "Gosia J."
+        },
+        {
+            "reviewRating": {
+                "ratingValue": 3
+            },
+            "datePublished": "2016-10-13",
+            "description": "Sushi around the corner from hotel Spatz.. Fresh, spicy Tuna was so so.  Tempura mix was nice. Not a special place.",
+            "author": "Dirk-Jan B."
+        },
+        {
+            "reviewRating": {
+                "ratingValue": 4
+            },
+            "datePublished": "2015-04-25",
+            "description": "Sushi is one these dishes that you can simply prepare and eat or you can prepare it, eat it, share it and be happy about it :-) The process of making sushi is for me the most important part of the sushi party. Selection of indgredients, granularity of rice, fresh vegetables and fish, esthetics of cutting and rolling. It is important not only to like the sushi itself but also to like preparing it for others :-) not to mention the way it is presented on the table afterwords. \n\nSushi is also one of these dishes that you can order and eat in a restaurant and also feel good about it :-) NINE kitchen is that kind of a restaurant. I was really surprised because I haven't felt this kind of sushi taste in a restaurant before. It was like as if they really liked making these rolls and it was made with passion. Rice wasn't dry, ingredients were fresh and tasty, wine was delicious and I am talking about as simple as it gets (it was a simple japanese plum wine that you can get in Alma). What is also surprising is the price, I don't quite remember what was it actually but it was about 20 zlotys to get a very decent portion of 2-3 types of maki and a complimentary nigiri + all the other suplementary parts like wasabi, soy sauce, ginger etc.\n\nThe interior of the restaurant is very pleasant, everything was the way it should be and just fitted together. I was there with Lawrence and another girl from the US and we even had a little chat with the owner. She lived in Canada for couple of years and apparently liked eating and making sushi there. What she says and I agree that sushi doesn't have to be so expensive to be good. My personal opinion is that sushi in Polish restaurants is overpriced without any apparent reason. Probably the owners think that it is so special and uncommon that it needs to be expensive. Well.. it doesn't and NINE kitchen is a proof of that.\n\nI will definitely come back and I will bring people there :-)",
+            "author": "Sebastian C."
+        }
+    ],
+    "servesCuisine": "Sushi Bars",
+    "priceRange": "Under PLN30",
+    "name": "Nine Kitchen",
+    "address": {
+        "addressLocality": "Krak\u00f3w",
+        "addressRegion": null,
+        "streetAddress": "ul. Miodowa 9",
+        "postalCode": "31-055",
+        "addressCountry": "PL"
+    },
+    "@context": "http://schema.org/",
+    "image": "https://s3-media4.fl.yelpcdn.com/bphoto/fNV5Do1TPrNEMEMy1E28gA/ls.jpg",
+    "@type": "Restaurant",
+    "telephone": "+48536705706"
+}
