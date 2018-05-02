@@ -1,0 +1,58 @@
+{
+    "@context": "http:\/\/schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http:\/\/techcrunch.com\/2018\/05\/01\/10-big-announcements-from-day-1-of-f8\/"
+    },
+    "headline": "Everything Facebook launched at F8 and Why",
+    "url": "http:\/\/techcrunch.com\/2018\/05\/01\/10-big-announcements-from-day-1-of-f8\/",
+    "thumbnailUrl": "https:\/\/techcrunch.com\/wp-content\/uploads\/2018\/05\/gettyimages-953382756.jpg?w=150",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https:\/\/techcrunch.com\/wp-content\/uploads\/2018\/05\/gettyimages-953382756.jpg?w=150"
+    },
+    "dateCreated": "2018-05-02T01:24:48Z",
+    "datePublished": "2018-05-02T01:24:48Z",
+    "dateModified": "1970-01-01T00:00:00Z",
+    "articleSection": "post",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "Anna Escher"
+        },
+        {
+            "@type": "Person",
+            "name": "Josh Constine"
+        }
+    ],
+    "creator": [
+        "Anna Escher",
+        "Josh Constine"
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "name": "TechCrunch",
+        "logo": {
+            "@type": "imageObject",
+            "url": "https:\/\/techcrunch.com\/wp-content\/themes\/techcrunch-2017\/images\/logo-json-ld.png",
+            "width": "600",
+            "height": "60"
+        }
+    },
+    "keywords": [
+        "@post-id:1632154",
+        "apps",
+        "mobile",
+        "social",
+        "tc",
+        "f8",
+        "f8 2018",
+        "facebook",
+        "instagram",
+        "mark zuckerberg",
+        "messenger",
+        "oculus",
+        "whatsapp"
+    ]
+}

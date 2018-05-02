@@ -1,15 +1,15 @@
 const walkObject = require("./helpers/walkObject");
-const schemaStructure = new Map(require("../assets/schema"));
+const schemaStructure = new Map(require("../assets/schema_google"));
 const TYPE_KEYWORD = '@type';
 
 function cleanName(uri) {
     return uri.replace('http://schema.org/', '');
 }
 
-function getKeySafelistForType(type) {
-    const keys = schemaStructure.get(type);
+function getTypeSettingsForType(type) {
+    const typeSettings = schemaStructure.get(type);
 
-    return keys;
+    return typeSettings;
 }
 
 function isKnownType(type) {
@@ -19,6 +19,7 @@ function isKnownType(type) {
 function validateObjectKeys(typeOrTypes, keys) {
     const errors = [];
     const safelist = [];
+    const required = [];
 
     let types = [];
 
@@ -44,19 +45,32 @@ function validateObjectKeys(typeOrTypes, keys) {
     }
 
     types.forEach(type => {
-        const typeSafelist = getKeySafelistForType(type);
+        const typeSettings = getTypeSettingsForType(type);
 
-        if (typeSafelist) {
-            typeSafelist.forEach(key => safelist.push(key));
-        } else {
+        if(!typeSettings) {
             // should we fail here? type is unrecognized
+        }
+
+        if (typeSettings.props) {
+            typeSettings.props.forEach(key => safelist.push(key));
+        }
+
+        if (typeSettings.required) {
+            typeSettings.required.forEach(key => required.push(key));
         }
     });
 
-    keys
+    const cleanKeys = keys
         .filter(key => key.indexOf('@') !== 0)
-        .filter(key => !safelist.includes(cleanName(key)))
+        .map(key => cleanName(key));
+
+    cleanKeys
+        .filter(key => !safelist.includes(key))
         .forEach(key => errors.push(`Unexpected property "${key}"`));
+
+    required
+        .filter(key => !cleanKeys.includes(key))
+        .forEach(key => errors.push(`Missing required property "${key}"`));
 
     return errors;
 }
@@ -64,13 +78,18 @@ function validateObjectKeys(typeOrTypes, keys) {
 module.exports = function validateSchemaOrg(expandedObj) {
     const errors = [];
 
+    if (expandedObj.length === 1) {
+        expandedObj = expandedObj[0];
+    }
+
     walkObject(expandedObj, (name, value, path, obj) => {
         if (name === TYPE_KEYWORD) {            
             const keyErrors = validateObjectKeys(value, Object.keys(obj));
 
             keyErrors.forEach(e =>
                 errors.push({
-                    path: path.slice(0, -1).map(cleanName).join('/'),
+                    // get rid of /@type
+                    path: '/' + path.slice(0, -1).map(cleanName).join('/'),
                     message: e
                 })
             );

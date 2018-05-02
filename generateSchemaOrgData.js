@@ -26,8 +26,11 @@ async function main() {
     const types = await csvParse(typesText);
 
     // first row is a CSV header
-    types.slice(1).forEach(([id,,,,,props]) => {
-        result.set(id, props.split(',').map(prop => prop.trim().replace('http://schema.org/', '')));
+    types.slice(1).forEach(([id,label,comment,subTypeOf,equivalentClass,props]) => {
+        result.set(id, {
+            props: props.split(',').map(prop => prop.trim().replace('http://schema.org/', '')),
+            subTypeOf
+        });
     });
 
     return result;
@@ -36,5 +39,5 @@ async function main() {
 main()
     .catch(e => console.error(e))
     .then(data => {
-        fs.writeFileSync('./assets/schema.json', JSON.stringify(Array.from(data)));
+        fs.writeFileSync('./assets/schema.json', JSON.stringify(Array.from(data), null, 2));
     });

@@ -1,0 +1,29 @@
+{
+    "@context" : "http://schema.org",
+    "@type" : "Review",
+    "name" : "Jewellery shopping",
+    "url" : "/Attraction_Review-g293962-d6516565-Reviews-Salie_s_Fine_Jewelery_Gem_Stones-Colombo_Western_Province.html",
+    "image" : "https://media-cdn.tripadvisor.com/media/photo-s/08/8b/cd/cc/am-salies-ltd.jpg",
+    "author" : "a TripAdvisor user",
+    "reviewBody" : "I went to this place on recommendations from trip advisor and I was not disappointed. Having had a bad experience an d having been badly ripped off jewellery shopping in Colombo in the past it was a pleasure to meet a family who treated one with respect and we\\'re not pushy in any way and who did not try to sell something not wanted. The owners were most accommodating in making a piece at short notice and were very expert in their knowledge of gemstones and very generous in sharing their knowledge\\nHighly recommended!",
+    "reviewRating" : {
+    "@type" : "Rating",
+    "ratingValue" : "5"
+    },
+    "itemReviewed" : {
+    "@type" : "LocalBusiness",
+    "name" : "Salie's Fine Jewelery & Gem Stones",
+    "image" : "https://media-cdn.tripadvisor.com/media/photo-s/08/8b/cd/cc/am-salies-ltd.jpg",
+    "address" : {
+    "@type" : "PostalAddress",
+    "streetAddress" : "151 Galle Road",
+    "addressLocality" : "Colombo",
+    "addressRegion" : "Western Province",
+    "postalCode" : "00300",
+    "addressCountry" : {
+    "@type" : "Country",
+    "name" : "Sri Lanka"
+    }
+    }
+    }
+    }

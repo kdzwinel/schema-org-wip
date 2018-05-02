@@ -115,7 +115,12 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/TechArticle"
+      "subTypeOf": "http://schema.org/TechArticle",
+      "required": [
+        "datePublished",
+        "headline",
+        "image"
+      ]
     }
   ],
   [
@@ -442,7 +447,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FinancialService"
+      "subTypeOf": "http://schema.org/FinancialService",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -759,7 +768,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/EntertainmentBusiness"
+      "subTypeOf": "http://schema.org/EntertainmentBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -849,7 +862,10 @@
         "url",
         "worstRating"
       ],
-      "subTypeOf": "http://schema.org/Rating"
+      "subTypeOf": "http://schema.org/Rating",
+      "required": [
+        "ratingValue"
+      ]
     }
   ],
   [
@@ -1187,7 +1203,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/EntertainmentBusiness"
+      "subTypeOf": "http://schema.org/EntertainmentBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -1304,7 +1324,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -1806,7 +1830,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/EntertainmentBusiness"
+      "subTypeOf": "http://schema.org/EntertainmentBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -1918,7 +1946,14 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      "subTypeOf": "http://schema.org/CreativeWork",
+      "required": [
+        "author",
+        "datePublished",
+        "headline",
+        "image",
+        "publisher"
+      ]
     }
   ],
   [
@@ -2131,7 +2166,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LegalService"
+      "subTypeOf": "http://schema.org/LegalService",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -2422,7 +2461,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness"
+      "subTypeOf": "http://schema.org/AutomotiveBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -2539,7 +2582,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness"
+      "subTypeOf": "http://schema.org/AutomotiveBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -2656,7 +2703,13 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness, http://schema.org/Store"
+      "subTypeOf": "http://schema.org/AutomotiveBusiness, http://schema.org/Store",
+      "required": [
+        "image",
+        "name",
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -2773,7 +2826,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness"
+      "subTypeOf": "http://schema.org/AutomotiveBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -2890,7 +2947,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness"
+      "subTypeOf": "http://schema.org/AutomotiveBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -3007,7 +3068,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness"
+      "subTypeOf": "http://schema.org/AutomotiveBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -3125,7 +3190,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FinancialService"
+      "subTypeOf": "http://schema.org/FinancialService",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -3242,7 +3311,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -3364,7 +3437,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment"
+      "subTypeOf": "http://schema.org/FoodEstablishment",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -3530,7 +3607,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FinancialService"
+      "subTypeOf": "http://schema.org/FinancialService",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -3652,7 +3733,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment"
+      "subTypeOf": "http://schema.org/FoodEstablishment",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -3952,7 +4037,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness"
+      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -4076,7 +4165,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LodgingBusiness"
+      "subTypeOf": "http://schema.org/LodgingBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -4244,7 +4337,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -4465,7 +4562,14 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/SocialMediaPosting"
+      "subTypeOf": "http://schema.org/SocialMediaPosting",
+      "required": [
+        "author",
+        "datePublished",
+        "headline",
+        "image",
+        "publisher"
+      ]
     }
   ],
   [
@@ -4899,7 +5003,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -5088,7 +5196,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/SportsActivityLocation"
+      "subTypeOf": "http://schema.org/SportsActivityLocation",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -5254,7 +5366,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment"
+      "subTypeOf": "http://schema.org/FoodEstablishment",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -5783,7 +5899,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -6002,7 +6123,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment"
+      "subTypeOf": "http://schema.org/FoodEstablishment",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -6127,7 +6252,13 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/LodgingBusiness"
+      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/LodgingBusiness",
+      "required": [
+        "image",
+        "name",
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -6373,7 +6504,10 @@
         "wheelbase",
         "width"
       ],
-      "subTypeOf": "http://schema.org/Vehicle"
+      "subTypeOf": "http://schema.org/Vehicle",
+      "required": [
+        "name"
+      ]
     }
   ],
   [
@@ -6490,7 +6624,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/EntertainmentBusiness"
+      "subTypeOf": "http://schema.org/EntertainmentBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -6938,7 +7076,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -6992,7 +7134,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -7368,7 +7515,15 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/Review"
+      "subTypeOf": "http://schema.org/Review",
+      "required": [
+        "author",
+        "claimReviewed",
+        "datePublished",
+        "itemReviewed",
+        "reviewRating",
+        "url"
+      ]
     }
   ],
   [
@@ -7599,7 +7754,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -8010,7 +8169,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/EntertainmentBusiness"
+      "subTypeOf": "http://schema.org/EntertainmentBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -8064,7 +8227,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -8406,7 +8574,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -8841,7 +9013,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -9220,7 +9396,11 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      "subTypeOf": "http://schema.org/CreativeWork",
+      "required": [
+        "description",
+        "name"
+      ]
     }
   ],
   [
@@ -9276,7 +9456,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -9911,7 +10096,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -10655,7 +10845,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness"
+      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -11057,7 +11251,13 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness, http://schema.org/MedicalBusiness, http://schema.org/MedicalOrganization"
+      "subTypeOf": "http://schema.org/LocalBusiness, http://schema.org/MedicalBusiness, http://schema.org/MedicalOrganization",
+      "required": [
+        "image",
+        "name",
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -11206,7 +11406,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -11575,7 +11779,12 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/SocialMediaPosting"
+      "subTypeOf": "http://schema.org/SocialMediaPosting",
+      "required": [
+        "datePublished",
+        "headline",
+        "image"
+      ]
     }
   ],
   [
@@ -11895,7 +12104,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -11999,7 +12212,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -12212,7 +12430,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness"
+      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -12329,7 +12551,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -12693,7 +12919,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -12836,7 +13066,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -13027,7 +13261,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -13242,7 +13480,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Thing"
+      "subTypeOf": "http://schema.org/Thing",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -13515,7 +13758,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/SportsActivityLocation"
+      "subTypeOf": "http://schema.org/SportsActivityLocation",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -13569,7 +13816,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -13691,7 +13943,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment"
+      "subTypeOf": "http://schema.org/FoodEstablishment",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -13745,7 +14001,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -13938,7 +14199,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -14086,7 +14351,13 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/EmergencyService"
+      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/EmergencyService",
+      "required": [
+        "image",
+        "name",
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -14285,7 +14556,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -14438,7 +14713,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -14527,7 +14806,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -14686,7 +14970,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -14975,7 +15263,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -15092,7 +15384,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness"
+      "subTypeOf": "http://schema.org/AutomotiveBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -15287,7 +15583,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness"
+      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -15518,7 +15818,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/SportsActivityLocation"
+      "subTypeOf": "http://schema.org/SportsActivityLocation",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -15694,7 +15998,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -15953,7 +16261,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -16070,7 +16382,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness"
+      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -16187,7 +16503,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness"
+      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -16304,7 +16624,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -16421,7 +16745,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -16538,7 +16866,13 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness, http://schema.org/SportsActivityLocation"
+      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness, http://schema.org/SportsActivityLocation",
+      "required": [
+        "image",
+        "name",
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -16788,7 +17122,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -16905,7 +17243,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -17022,7 +17364,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -17145,7 +17491,15 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/EmergencyService, http://schema.org/MedicalOrganization"
+      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/EmergencyService, http://schema.org/MedicalOrganization",
+      "required": [
+        "image",
+        "name",
+        "image",
+        "name",
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -17269,7 +17623,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LodgingBusiness"
+      "subTypeOf": "http://schema.org/LodgingBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -17393,7 +17751,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LodgingBusiness"
+      "subTypeOf": "http://schema.org/LodgingBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -17639,7 +18001,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness"
+      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -17830,7 +18196,10 @@
         "steps",
         "url"
       ],
-      "subTypeOf": "http://schema.org/ItemList"
+      "subTypeOf": "http://schema.org/ItemList",
+      "required": [
+        "itemListElement"
+      ]
     }
   ],
   [
@@ -17852,7 +18221,10 @@
         "sameAs",
         "url"
       ],
-      "subTypeOf": "http://schema.org/ItemList"
+      "subTypeOf": "http://schema.org/ItemList",
+      "required": [
+        "itemListElement"
+      ]
     }
   ],
   [
@@ -18046,7 +18418,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment"
+      "subTypeOf": "http://schema.org/FoodEstablishment",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -18586,7 +18962,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FinancialService"
+      "subTypeOf": "http://schema.org/FinancialService",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -18783,7 +19163,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -18941,7 +19325,10 @@
         "sameAs",
         "url"
       ],
-      "subTypeOf": "http://schema.org/Intangible"
+      "subTypeOf": "http://schema.org/Intangible",
+      "required": [
+        "itemListElement"
+      ]
     }
   ],
   [
@@ -19193,7 +19580,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -19234,7 +19625,14 @@
         "validThrough",
         "workHours"
       ],
-      "subTypeOf": "http://schema.org/Intangible"
+      "subTypeOf": "http://schema.org/Intangible",
+      "required": [
+        "datePosted",
+        "description",
+        "hiringOrganization",
+        "jobLocation",
+        "title"
+      ]
     }
   ],
   [
@@ -19606,7 +20004,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -19815,7 +20217,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -19962,7 +20368,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -20016,7 +20426,11 @@
         "target",
         "url"
       ],
-      "subTypeOf": "http://schema.org/ConsumeAction"
+      "subTypeOf": "http://schema.org/ConsumeAction",
+      "required": [
+        "expectsAcceptanceOf",
+        "target"
+      ]
     }
   ],
   [
@@ -20070,7 +20484,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -20357,7 +20776,13 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Organization, http://schema.org/Place"
+      "subTypeOf": "http://schema.org/Organization, http://schema.org/Place",
+      "required": [
+        "image",
+        "name",
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -20524,7 +20949,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness"
+      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -20648,7 +21077,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -21268,7 +21701,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -21940,7 +22377,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -22148,7 +22589,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LodgingBusiness"
+      "subTypeOf": "http://schema.org/LodgingBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -22265,7 +22710,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness"
+      "subTypeOf": "http://schema.org/AutomotiveBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -22382,7 +22831,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness"
+      "subTypeOf": "http://schema.org/AutomotiveBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -22587,7 +23040,11 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      "subTypeOf": "http://schema.org/CreativeWork",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -22818,7 +23275,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -23052,7 +23513,13 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/EntertainmentBusiness"
+      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/EntertainmentBusiness",
+      "required": [
+        "image",
+        "name",
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -23169,7 +23636,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness"
+      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -23549,7 +24020,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -24098,7 +24574,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -24467,7 +24947,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness"
+      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -24584,7 +25068,14 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/Article"
+      "subTypeOf": "http://schema.org/Article",
+      "required": [
+        "author",
+        "datePublished",
+        "headline",
+        "image",
+        "publisher"
+      ]
     }
   ],
   [
@@ -24701,7 +25192,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/EntertainmentBusiness"
+      "subTypeOf": "http://schema.org/EntertainmentBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -24818,7 +25313,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LegalService"
+      "subTypeOf": "http://schema.org/LegalService",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -25241,7 +25740,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -25685,7 +26188,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -26159,7 +26666,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -26900,7 +27411,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -27020,7 +27535,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/MedicalBusiness, http://schema.org/MedicalOrganization"
+      "subTypeOf": "http://schema.org/MedicalBusiness, http://schema.org/MedicalOrganization",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -27278,7 +27797,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/MedicalBusiness, http://schema.org/MedicalOrganization"
+      "subTypeOf": "http://schema.org/MedicalBusiness, http://schema.org/MedicalOrganization",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -27634,7 +28157,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness"
+      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -27752,7 +28279,13 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/EmergencyService"
+      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/EmergencyService",
+      "required": [
+        "image",
+        "name",
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -27927,7 +28460,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/GovernmentOffice"
+      "subTypeOf": "http://schema.org/GovernmentOffice",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -28256,7 +28793,10 @@
         "weight",
         "width"
       ],
-      "subTypeOf": "http://schema.org/Thing"
+      "subTypeOf": "http://schema.org/Thing",
+      "required": [
+        "name"
+      ]
     }
   ],
   [
@@ -28429,7 +28969,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -28742,7 +29286,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/SportsActivityLocation"
+      "subTypeOf": "http://schema.org/SportsActivityLocation",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -30016,7 +30564,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -30217,7 +30769,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -30374,7 +30930,13 @@
         "workTranslation",
         "yield"
       ],
-      "subTypeOf": "http://schema.org/HowTo"
+      "subTypeOf": "http://schema.org/HowTo",
+      "required": [
+        "image",
+        "name",
+        "recipeIngredient",
+        "recipeInstructions"
+      ]
     }
   ],
   [
@@ -30491,7 +31053,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -31160,7 +31726,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LodgingBusiness"
+      "subTypeOf": "http://schema.org/LodgingBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -31282,7 +31852,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment"
+      "subTypeOf": "http://schema.org/FoodEstablishment",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -31473,7 +32047,10 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      "subTypeOf": "http://schema.org/CreativeWork",
+      "required": [
+        "author"
+      ]
     }
   ],
   [
@@ -31702,7 +32279,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness"
+      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -31877,7 +32458,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -32020,7 +32606,12 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/Article"
+      "subTypeOf": "http://schema.org/Article",
+      "required": [
+        "datePublished",
+        "headline",
+        "image"
+      ]
     }
   ],
   [
@@ -32151,7 +32742,12 @@
         "workPerformed",
         "workPresented"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -32705,7 +33301,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -33098,7 +33698,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -33215,7 +33819,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -33503,7 +34111,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/SportsActivityLocation"
+      "subTypeOf": "http://schema.org/SportsActivityLocation",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -33557,7 +34169,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -33670,7 +34287,12 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/Article"
+      "subTypeOf": "http://schema.org/Article",
+      "required": [
+        "datePublished",
+        "headline",
+        "image"
+      ]
     }
   ],
   [
@@ -34102,7 +34724,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -34219,7 +34845,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -34336,7 +34966,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/SportsActivityLocation"
+      "subTypeOf": "http://schema.org/SportsActivityLocation",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -34393,7 +35027,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -34767,7 +35406,13 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/SportsActivityLocation"
+      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/SportsActivityLocation",
+      "required": [
+        "image",
+        "name",
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -34970,7 +35615,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -35961,7 +36610,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness"
+      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -36253,7 +36906,12 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/Article"
+      "subTypeOf": "http://schema.org/Article",
+      "required": [
+        "datePublished",
+        "headline",
+        "image"
+      ]
     }
   ],
   [
@@ -36395,7 +37053,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -36512,7 +37174,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/SportsActivityLocation"
+      "subTypeOf": "http://schema.org/SportsActivityLocation",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -36681,7 +37347,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -36989,7 +37660,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -37166,7 +37841,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -37283,7 +37962,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -37647,7 +38330,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness"
+      "subTypeOf": "http://schema.org/LocalBusiness",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -38443,7 +39130,10 @@
         "wheelbase",
         "width"
       ],
-      "subTypeOf": "http://schema.org/Product"
+      "subTypeOf": "http://schema.org/Product",
+      "required": [
+        "name"
+      ]
     }
   ],
   [
@@ -38703,7 +39393,11 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/Game, http://schema.org/SoftwareApplication"
+      "subTypeOf": "http://schema.org/Game, http://schema.org/SoftwareApplication",
+      "required": [
+        "name",
+        "name"
+      ]
     }
   ],
   [
@@ -39077,7 +39771,13 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/MediaObject"
+      "subTypeOf": "http://schema.org/MediaObject",
+      "required": [
+        "description",
+        "name",
+        "thumbnailUrl",
+        "uploadDate"
+      ]
     }
   ],
   [
@@ -39162,7 +39862,12 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event"
+      "subTypeOf": "http://schema.org/Event",
+      "required": [
+        "location",
+        "name",
+        "startDate"
+      ]
     }
   ],
   [
@@ -40555,7 +41260,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store"
+      "subTypeOf": "http://schema.org/Store",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
@@ -40708,7 +41417,11 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment"
+      "subTypeOf": "http://schema.org/FoodEstablishment",
+      "required": [
+        "image",
+        "name"
+      ]
     }
   ],
   [
