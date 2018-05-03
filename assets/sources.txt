@@ -12,6 +12,25 @@ Array
 .join(`,
 `);
 
++
+
+```
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction"
+  }
+},
+{
+  "@context": "http://schema.org",
+  "@type": "MusicAlbum",
+  "potentialAction": {
+    "@type": "ListenAction"
+  }
+}
+```
+
 2.
 https://search.google.com/structured-data/testing-tool
 

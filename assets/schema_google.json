@@ -115,7 +115,6 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/TechArticle",
       "required": [
         "datePublished",
         "headline",
@@ -234,8 +233,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/WebPage"
+      ]
     }
   ],
   [
@@ -265,8 +263,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/AllocateAction"
+      ]
     }
   ],
   [
@@ -328,8 +325,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Place"
+      ]
     }
   ],
   [
@@ -447,10 +443,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FinancialService",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -480,8 +480,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Action"
+      ]
     }
   ],
   [
@@ -510,8 +509,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Thing"
+      ]
     }
   ],
   [
@@ -530,8 +528,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -560,8 +557,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ControlAction"
+      ]
     }
   ],
   [
@@ -592,8 +588,7 @@
         "target",
         "targetCollection",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/UpdateAction"
+      ]
     }
   ],
   [
@@ -650,8 +645,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Place"
+      ]
     }
   ],
   [
@@ -768,10 +762,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/EntertainmentBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -835,8 +833,7 @@
         "validFrom",
         "validThrough",
         "warranty"
-      ],
-      "subTypeOf": "http://schema.org/Offer"
+      ]
     }
   ],
   [
@@ -862,7 +859,6 @@
         "url",
         "worstRating"
       ],
-      "subTypeOf": "http://schema.org/Rating",
       "required": [
         "ratingValue"
       ]
@@ -894,8 +890,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ReactAction"
+      ]
     }
   ],
   [
@@ -969,8 +964,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/Organization"
+      ]
     }
   ],
   [
@@ -1030,8 +1024,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -1054,8 +1047,7 @@
         "targetName",
         "targetUrl",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -1085,8 +1077,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/OrganizeAction"
+      ]
     }
   ],
   [
@@ -1203,10 +1194,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/EntertainmentBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -1324,10 +1319,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -1435,8 +1434,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/Comment"
+      ]
     }
   ],
   [
@@ -1500,8 +1498,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Accommodation"
+      ]
     }
   ],
   [
@@ -1558,8 +1555,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Residence"
+      ]
     }
   ],
   [
@@ -1591,8 +1587,7 @@
         "targetCollection",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/InsertAction"
+      ]
     }
   ],
   [
@@ -1621,8 +1616,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/OrganizeAction"
+      ]
     }
   ],
   [
@@ -1680,8 +1674,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -1712,8 +1705,7 @@
         "target",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/MoveAction"
+      ]
     }
   ],
   [
@@ -1830,10 +1822,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/EntertainmentBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -1946,13 +1942,16 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/CreativeWork",
       "required": [
         "author",
         "datePublished",
         "headline",
         "image",
         "publisher"
+      ],
+      "recommended": [
+        "dateModified",
+        "mainEntityOfPage"
       ]
     }
   ],
@@ -1987,8 +1986,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CommunicateAction"
+      ]
     }
   ],
   [
@@ -2017,8 +2015,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Action"
+      ]
     }
   ],
   [
@@ -2048,8 +2045,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/AllocateAction"
+      ]
     }
   ],
   [
@@ -2166,10 +2162,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LegalService",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -2190,8 +2190,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -2311,8 +2310,7 @@
         "width",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/MediaObject"
+      ]
     }
   ],
   [
@@ -2343,8 +2341,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/AllocateAction"
+      ]
     }
   ],
   [
@@ -2461,10 +2458,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -2582,10 +2583,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -2703,12 +2708,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness, http://schema.org/Store",
       "required": [
         "image",
-        "name",
-        "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -2826,10 +2833,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -2947,10 +2958,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -3068,10 +3083,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -3190,10 +3209,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FinancialService",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -3311,10 +3334,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -3437,10 +3464,15 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "servesCuisine",
+        "telephone"
       ]
     }
   ],
@@ -3488,8 +3520,7 @@
         "serviceType",
         "termsOfService",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/FinancialProduct"
+      ]
     }
   ],
   [
@@ -3607,10 +3638,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FinancialService",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -3733,10 +3768,15 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "servesCuisine",
+        "telephone"
       ]
     }
   ],
@@ -3860,8 +3900,7 @@
         "width",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/ImageObject"
+      ]
     }
   ],
   [
@@ -3919,8 +3958,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -4037,10 +4075,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -4165,10 +4207,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LodgingBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -4189,8 +4235,7 @@
         "sameAs",
         "typeOfBed",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -4219,8 +4264,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/InteractAction"
+      ]
     }
   ],
   [
@@ -4337,10 +4381,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -4448,8 +4496,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -4562,13 +4609,16 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/SocialMediaPosting",
       "required": [
         "author",
         "datePublished",
         "headline",
         "image",
         "publisher"
+      ],
+      "recommended": [
+        "dateModified",
+        "mainEntityOfPage"
       ]
     }
   ],
@@ -4588,8 +4638,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -4646,8 +4695,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Landform"
+      ]
     }
   ],
   [
@@ -4757,8 +4805,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -4777,8 +4824,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -4885,8 +4931,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWorkSeries"
+      ]
     }
   ],
   [
@@ -5003,10 +5048,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -5036,8 +5085,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/OrganizeAction"
+      ]
     }
   ],
   [
@@ -5045,8 +5093,7 @@
     {
       "props": [
         ""
-      ],
-      "subTypeOf": ""
+      ]
     }
   ],
   [
@@ -5078,8 +5125,7 @@
         "target",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/TransferAction"
+      ]
     }
   ],
   [
@@ -5196,10 +5242,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/SportsActivityLocation",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -5221,8 +5271,7 @@
         "review",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -5243,8 +5292,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ItemList"
+      ]
     }
   ],
   [
@@ -5366,10 +5414,15 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "servesCuisine",
+        "telephone"
       ]
     }
   ],
@@ -5428,8 +5481,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -5453,8 +5505,7 @@
         "providesBroadcastService",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -5514,8 +5565,7 @@
         "videoFormat",
         "workFeatured",
         "workPerformed"
-      ],
-      "subTypeOf": "http://schema.org/PublicationEvent"
+      ]
     }
   ],
   [
@@ -5565,8 +5615,7 @@
         "termsOfService",
         "url",
         "videoFormat"
-      ],
-      "subTypeOf": "http://schema.org/Service"
+      ]
     }
   ],
   [
@@ -5624,8 +5673,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/PlaceOfWorship"
+      ]
     }
   ],
   [
@@ -5656,8 +5704,7 @@
         "totalPrice",
         "underName",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Reservation"
+      ]
     }
   ],
   [
@@ -5715,8 +5762,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -5774,8 +5820,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -5800,8 +5845,7 @@
         "provider",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -5824,8 +5868,7 @@
         "url",
         "yearlyRevenue",
         "yearsInOperation"
-      ],
-      "subTypeOf": "http://schema.org/Audience"
+      ]
     }
   ],
   [
@@ -5844,8 +5887,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -5899,11 +5941,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -5923,8 +5971,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -5958,8 +6005,7 @@
         "url",
         "vendor",
         "warrantyPromise"
-      ],
-      "subTypeOf": "http://schema.org/TradeAction"
+      ]
     }
   ],
   [
@@ -6000,8 +6046,7 @@
         "serviceType",
         "termsOfService",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Service"
+      ]
     }
   ],
   [
@@ -6123,10 +6168,15 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "servesCuisine",
+        "telephone"
       ]
     }
   ],
@@ -6252,12 +6302,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/LodgingBusiness",
       "required": [
         "image",
-        "name",
-        "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -6320,8 +6372,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Accommodation"
+      ]
     }
   ],
   [
@@ -6378,8 +6429,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/BodyOfWater"
+      ]
     }
   ],
   [
@@ -6409,8 +6459,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/PlanAction"
+      ]
     }
   ],
   [
@@ -6504,7 +6553,6 @@
         "wheelbase",
         "width"
       ],
-      "subTypeOf": "http://schema.org/Vehicle",
       "required": [
         "name"
       ]
@@ -6624,10 +6672,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/EntertainmentBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -6686,8 +6738,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/PlaceOfWorship"
+      ]
     }
   ],
   [
@@ -6745,8 +6796,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -6775,8 +6825,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/FindAction"
+      ]
     }
   ],
   [
@@ -6809,8 +6858,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CommunicateAction"
+      ]
     }
   ],
   [
@@ -6843,8 +6891,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CommunicateAction"
+      ]
     }
   ],
   [
@@ -6958,8 +7005,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/WebPage"
+      ]
     }
   ],
   [
@@ -7076,10 +7122,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -7134,11 +7184,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -7170,8 +7226,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/AssessAction"
+      ]
     }
   ],
   [
@@ -7229,8 +7284,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/PlaceOfWorship"
+      ]
     }
   ],
   [
@@ -7287,8 +7341,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/AdministrativeArea"
+      ]
     }
   ],
   [
@@ -7346,8 +7399,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/GovernmentBuilding"
+      ]
     }
   ],
   [
@@ -7405,8 +7457,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Place"
+      ]
     }
   ],
   [
@@ -7515,7 +7566,6 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/Review",
       "required": [
         "author",
         "claimReviewed",
@@ -7636,8 +7686,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -7754,10 +7803,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -7862,8 +7915,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -7977,8 +8029,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/WebPage"
+      ]
     }
   ],
   [
@@ -8051,8 +8102,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/EducationalOrganization"
+      ]
     }
   ],
   [
@@ -8169,10 +8219,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/EntertainmentBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -8227,11 +8281,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -8339,8 +8399,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -8374,8 +8433,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CommunicateAction"
+      ]
     }
   ],
   [
@@ -8408,8 +8466,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/InteractAction"
+      ]
     }
   ],
   [
@@ -8437,8 +8494,7 @@
         "validFrom",
         "validThrough",
         "valueAddedTaxIncluded"
-      ],
-      "subTypeOf": "http://schema.org/PriceSpecification"
+      ]
     }
   ],
   [
@@ -8456,8 +8512,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -8574,10 +8629,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -8612,8 +8671,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/InformAction"
+      ]
     }
   ],
   [
@@ -8643,8 +8701,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Action"
+      ]
     }
   ],
   [
@@ -8758,8 +8815,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/WebPage"
+      ]
     }
   ],
   [
@@ -8787,8 +8843,7 @@
         "serviceArea",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/StructuredValue"
+      ]
     }
   ],
   [
@@ -8807,8 +8862,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -8865,8 +8919,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Landform"
+      ]
     }
   ],
   [
@@ -8895,8 +8948,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Action"
+      ]
     }
   ],
   [
@@ -9013,10 +9065,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -9121,8 +9177,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -9154,8 +9209,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CreateAction"
+      ]
     }
   ],
   [
@@ -9228,8 +9282,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/Organization"
+      ]
     }
   ],
   [
@@ -9286,8 +9339,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/AdministrativeArea"
+      ]
     }
   ],
   [
@@ -9396,10 +9448,12 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/CreativeWork",
       "required": [
         "description",
         "name"
+      ],
+      "recommended": [
+        "provider"
       ]
     }
   ],
@@ -9456,11 +9510,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -9519,8 +9579,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/GovernmentBuilding"
+      ]
     }
   ],
   [
@@ -9549,8 +9608,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Action"
+      ]
     }
   ],
   [
@@ -9654,8 +9712,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/Thing"
+      ]
     }
   ],
   [
@@ -9770,8 +9827,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -9878,8 +9934,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -9937,8 +9992,7 @@
         "supersededBy",
         "termsOfService",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/LoanOrCredit, http://schema.org/PaymentCard"
+      ]
     }
   ],
   [
@@ -9996,8 +10050,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -10041,8 +10094,7 @@
         "serviceType",
         "termsOfService",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/FinancialProduct"
+      ]
     }
   ],
   [
@@ -10096,11 +10148,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -10173,8 +10231,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/PerformingGroup"
+      ]
     }
   ],
   [
@@ -10280,8 +10337,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -10401,8 +10457,7 @@
         "width",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/MediaObject"
+      ]
     }
   ],
   [
@@ -10518,8 +10573,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/Dataset"
+      ]
     }
   ],
   [
@@ -10541,8 +10595,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -10550,8 +10603,7 @@
     {
       "props": [
         ""
-      ],
-      "subTypeOf": ""
+      ]
     }
   ],
   [
@@ -10666,8 +10718,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -10675,8 +10726,7 @@
     {
       "props": [
         ""
-      ],
-      "subTypeOf": ""
+      ]
     }
   ],
   [
@@ -10684,8 +10734,7 @@
     {
       "props": [
         ""
-      ],
-      "subTypeOf": ""
+      ]
     }
   ],
   [
@@ -10707,8 +10756,7 @@
         "sameAs",
         "startDate",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/StructuredValue"
+      ]
     }
   ],
   [
@@ -10727,8 +10775,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -10845,10 +10892,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -10878,8 +10929,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ControlAction"
+      ]
     }
   ],
   [
@@ -10937,8 +10987,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/GovernmentBuilding"
+      ]
     }
   ],
   [
@@ -10969,8 +11018,7 @@
         "target",
         "targetCollection",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/UpdateAction"
+      ]
     }
   ],
   [
@@ -11001,8 +11049,7 @@
         "validFrom",
         "validThrough",
         "valueAddedTaxIncluded"
-      ],
-      "subTypeOf": "http://schema.org/PriceSpecification"
+      ]
     }
   ],
   [
@@ -11059,8 +11106,7 @@
         "url",
         "workFeatured",
         "workPerformed"
-      ],
-      "subTypeOf": "http://schema.org/Event"
+      ]
     }
   ],
   [
@@ -11079,8 +11125,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -11130,8 +11175,7 @@
         "validFrom",
         "validThrough",
         "warranty"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -11251,12 +11295,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness, http://schema.org/MedicalBusiness, http://schema.org/MedicalOrganization",
       "required": [
         "image",
-        "name",
-        "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -11288,8 +11334,7 @@
         "target",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/MoveAction"
+      ]
     }
   ],
   [
@@ -11406,10 +11451,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -11458,8 +11507,7 @@
         "serviceType",
         "termsOfService",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/BankAccount, http://schema.org/InvestmentOrDeposit"
+      ]
     }
   ],
   [
@@ -11564,8 +11612,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -11585,8 +11632,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -11605,8 +11651,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -11635,8 +11680,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ReactAction"
+      ]
     }
   ],
   [
@@ -11665,8 +11709,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/FindAction"
+      ]
     }
   ],
   [
@@ -11779,7 +11822,6 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/SocialMediaPosting",
       "required": [
         "datePublished",
         "headline",
@@ -11813,8 +11855,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ReactAction"
+      ]
     }
   ],
   [
@@ -11832,8 +11873,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Quantity"
+      ]
     }
   ],
   [
@@ -11865,8 +11905,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/TradeAction"
+      ]
     }
   ],
   [
@@ -11897,8 +11936,7 @@
         "target",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/TransferAction"
+      ]
     }
   ],
   [
@@ -11927,8 +11965,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CreateAction"
+      ]
     }
   ],
   [
@@ -11958,8 +11995,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ConsumeAction"
+      ]
     }
   ],
   [
@@ -11986,8 +12022,7 @@
         "supersededBy",
         "url",
         "valueReference"
-      ],
-      "subTypeOf": "http://schema.org/QualitativeValue"
+      ]
     }
   ],
   [
@@ -12104,10 +12139,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -12126,8 +12165,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Quantity"
+      ]
     }
   ],
   [
@@ -12157,8 +12195,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ConsumeAction"
+      ]
     }
   ],
   [
@@ -12212,11 +12249,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -12238,8 +12281,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Audience"
+      ]
     }
   ],
   [
@@ -12312,8 +12354,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/Organization"
+      ]
     }
   ],
   [
@@ -12430,10 +12471,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -12551,10 +12596,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -12628,8 +12677,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/EducationalOrganization"
+      ]
     }
   ],
   [
@@ -12742,8 +12790,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/Message"
+      ]
     }
   ],
   [
@@ -12801,8 +12848,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/GovernmentBuilding"
+      ]
     }
   ],
   [
@@ -12919,10 +12965,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -12948,8 +12998,7 @@
         "sameAs",
         "startDate",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/OrganizationRole"
+      ]
     }
   ],
   [
@@ -13066,10 +13115,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -13100,8 +13153,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ReactAction"
+      ]
     }
   ],
   [
@@ -13119,8 +13171,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Quantity"
+      ]
     }
   ],
   [
@@ -13143,8 +13194,7 @@
         "sameAs",
         "torque",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/StructuredValue"
+      ]
     }
   ],
   [
@@ -13261,10 +13311,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -13290,8 +13344,7 @@
         "sameAs",
         "url",
         "urlTemplate"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -13310,8 +13363,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -13425,8 +13477,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -13480,11 +13531,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Thing",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -13516,8 +13573,7 @@
         "totalPrice",
         "underName",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Reservation"
+      ]
     }
   ],
   [
@@ -13536,8 +13592,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -13595,8 +13650,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -13640,8 +13694,7 @@
         "target",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/PlayAction"
+      ]
     }
   ],
   [
@@ -13758,10 +13811,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/SportsActivityLocation",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -13816,11 +13873,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -13943,10 +14006,15 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "servesCuisine",
+        "telephone"
       ]
     }
   ],
@@ -14001,11 +14069,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -14035,8 +14109,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CreateAction"
+      ]
     }
   ],
   [
@@ -14080,8 +14153,7 @@
         "serviceType",
         "termsOfService",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Service"
+      ]
     }
   ],
   [
@@ -14199,10 +14271,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -14232,8 +14308,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Action"
+      ]
     }
   ],
   [
@@ -14351,12 +14426,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/EmergencyService",
       "required": [
         "image",
-        "name",
-        "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -14393,8 +14470,7 @@
         "seller",
         "url",
         "webCheckinTime"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -14429,8 +14505,7 @@
         "totalPrice",
         "underName",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Reservation"
+      ]
     }
   ],
   [
@@ -14438,8 +14513,7 @@
     {
       "props": [
         ""
-      ],
-      "subTypeOf": "http://schema.org/Number"
+      ]
     }
   ],
   [
@@ -14556,10 +14630,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -14590,8 +14668,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/InteractAction"
+      ]
     }
   ],
   [
@@ -14713,10 +14790,15 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "servesCuisine",
+        "telephone"
       ]
     }
   ],
@@ -14751,8 +14833,7 @@
         "totalPrice",
         "underName",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Reservation"
+      ]
     }
   ],
   [
@@ -14806,11 +14887,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -14852,8 +14939,7 @@
         "serviceType",
         "termsOfService",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Service"
+      ]
     }
   ],
   [
@@ -14970,10 +15056,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -15083,8 +15173,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -15103,8 +15192,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -15125,8 +15213,7 @@
         "sameAs",
         "serverStatus",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -15145,8 +15232,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -15263,10 +15349,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -15384,10 +15474,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -15445,8 +15539,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Residence"
+      ]
     }
   ],
   [
@@ -15465,8 +15558,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -15583,10 +15675,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -15615,8 +15711,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/GeoShape"
+      ]
     }
   ],
   [
@@ -15640,8 +15735,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/StructuredValue"
+      ]
     }
   ],
   [
@@ -15667,8 +15761,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/StructuredValue"
+      ]
     }
   ],
   [
@@ -15700,8 +15793,7 @@
         "target",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/TransferAction"
+      ]
     }
   ],
   [
@@ -15818,10 +15910,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/SportsActivityLocation",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -15880,8 +15976,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -15998,10 +16093,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -16074,8 +16173,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/Organization"
+      ]
     }
   ],
   [
@@ -16100,8 +16198,7 @@
         "validFrom",
         "validIn",
         "validUntil"
-      ],
-      "subTypeOf": "http://schema.org/Permit"
+      ]
     }
   ],
   [
@@ -16143,8 +16240,7 @@
         "serviceType",
         "termsOfService",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Service"
+      ]
     }
   ],
   [
@@ -16261,10 +16357,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -16382,10 +16482,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -16503,10 +16607,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -16624,10 +16732,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -16745,10 +16857,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -16866,12 +16982,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness, http://schema.org/SportsActivityLocation",
       "required": [
         "image",
-        "name",
-        "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -16945,8 +17063,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/EducationalOrganization"
+      ]
     }
   ],
   [
@@ -17004,8 +17121,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/PlaceOfWorship"
+      ]
     }
   ],
   [
@@ -17122,10 +17238,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -17243,10 +17363,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -17364,10 +17488,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -17491,14 +17619,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/EmergencyService, http://schema.org/MedicalOrganization",
       "required": [
         "image",
-        "name",
-        "image",
-        "name",
-        "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -17623,10 +17751,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LodgingBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -17751,10 +17883,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LodgingBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -17819,8 +17955,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Room"
+      ]
     }
   ],
   [
@@ -17883,8 +18018,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Accommodation"
+      ]
     }
   ],
   [
@@ -18001,10 +18135,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -18117,8 +18255,7 @@
         "workExample",
         "workTranslation",
         "yield"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -18148,8 +18285,7 @@
         "tool",
         "totalTime",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ListItem"
+      ]
     }
   ],
   [
@@ -18172,8 +18308,7 @@
         "requiredQuantity",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ListItem"
+      ]
     }
   ],
   [
@@ -18196,7 +18331,6 @@
         "steps",
         "url"
       ],
-      "subTypeOf": "http://schema.org/ItemList",
       "required": [
         "itemListElement"
       ]
@@ -18221,7 +18355,6 @@
         "sameAs",
         "url"
       ],
-      "subTypeOf": "http://schema.org/ItemList",
       "required": [
         "itemListElement"
       ]
@@ -18248,8 +18381,7 @@
         "requiredQuantity",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/HowToItem"
+      ]
     }
   ],
   [
@@ -18271,8 +18403,7 @@
         "previousItem",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ListItem"
+      ]
     }
   ],
   [
@@ -18295,8 +18426,7 @@
         "requiredQuantity",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/HowToItem"
+      ]
     }
   ],
   [
@@ -18418,10 +18548,15 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "servesCuisine",
+        "telephone"
       ]
     }
   ],
@@ -18451,8 +18586,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/AssessAction"
+      ]
     }
   ],
   [
@@ -18566,8 +18700,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CollectionPage"
+      ]
     }
   ],
   [
@@ -18690,8 +18823,7 @@
         "width",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/MediaObject"
+      ]
     }
   ],
   [
@@ -18744,8 +18876,7 @@
         "url",
         "weight",
         "width"
-      ],
-      "subTypeOf": "http://schema.org/Product"
+      ]
     }
   ],
   [
@@ -18779,8 +18910,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CommunicateAction"
+      ]
     }
   ],
   [
@@ -18812,8 +18942,7 @@
         "targetCollection",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/AddAction"
+      ]
     }
   ],
   [
@@ -18843,8 +18972,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ConsumeAction"
+      ]
     }
   ],
   [
@@ -18962,10 +19090,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FinancialService",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -18984,8 +19116,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Thing"
+      ]
     }
   ],
   [
@@ -18993,8 +19124,7 @@
     {
       "props": [
         ""
-      ],
-      "subTypeOf": "http://schema.org/Number"
+      ]
     }
   ],
   [
@@ -19023,8 +19153,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Action"
+      ]
     }
   ],
   [
@@ -19045,8 +19174,7 @@
         "sameAs",
         "url",
         "userInteractionCount"
-      ],
-      "subTypeOf": "http://schema.org/StructuredValue"
+      ]
     }
   ],
   [
@@ -19163,10 +19291,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -19212,8 +19344,7 @@
         "serviceType",
         "termsOfService",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/FinancialProduct"
+      ]
     }
   ],
   [
@@ -19247,8 +19378,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CommunicateAction"
+      ]
     }
   ],
   [
@@ -19282,8 +19412,7 @@
         "scheduledPaymentDate",
         "totalPaymentDue",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -19302,8 +19431,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -19325,7 +19453,6 @@
         "sameAs",
         "url"
       ],
-      "subTypeOf": "http://schema.org/Intangible",
       "required": [
         "itemListElement"
       ]
@@ -19347,8 +19474,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -19462,8 +19588,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/WebPage"
+      ]
     }
   ],
   [
@@ -19580,10 +19705,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -19625,13 +19754,17 @@
         "validThrough",
         "workHours"
       ],
-      "subTypeOf": "http://schema.org/Intangible",
       "required": [
         "datePosted",
         "description",
         "hiringOrganization",
         "jobLocation",
         "title"
+      ],
+      "recommended": [
+        "baseSalary",
+        "employmentType",
+        "validThrough"
       ]
     }
   ],
@@ -19662,8 +19795,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/InteractAction"
+      ]
     }
   ],
   [
@@ -19720,8 +19852,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/BodyOfWater"
+      ]
     }
   ],
   [
@@ -19778,8 +19909,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Place"
+      ]
     }
   ],
   [
@@ -19836,8 +19966,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Place"
+      ]
     }
   ],
   [
@@ -19855,8 +19984,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -19886,8 +20014,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/InteractAction"
+      ]
     }
   ],
   [
@@ -20004,10 +20131,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -20066,8 +20197,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/GovernmentBuilding"
+      ]
     }
   ],
   [
@@ -20099,8 +20229,7 @@
         "target",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/TransferAction"
+      ]
     }
   ],
   [
@@ -20217,10 +20346,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -20250,8 +20383,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ReactAction"
+      ]
     }
   ],
   [
@@ -20368,10 +20500,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -20394,8 +20530,7 @@
         "previousItem",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -20426,7 +20561,6 @@
         "target",
         "url"
       ],
-      "subTypeOf": "http://schema.org/ConsumeAction",
       "required": [
         "expectsAcceptanceOf",
         "target"
@@ -20484,11 +20618,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -20605,7 +20745,10 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/BlogPosting"
+      "recommended": [
+        "coverageEndTime",
+        "coverageStartTime"
+      ]
     }
   ],
   [
@@ -20658,8 +20801,7 @@
         "serviceType",
         "termsOfService",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/FinancialProduct"
+      ]
     }
   ],
   [
@@ -20776,12 +20918,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Organization, http://schema.org/Place",
       "required": [
         "image",
-        "name",
-        "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -20811,8 +20955,7 @@
         "validThrough",
         "value",
         "valueReference"
-      ],
-      "subTypeOf": "http://schema.org/PropertyValue"
+      ]
     }
   ],
   [
@@ -20831,8 +20974,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/DeliveryMethod"
+      ]
     }
   ],
   [
@@ -20949,10 +21091,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -21077,10 +21223,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -21118,8 +21268,7 @@
         "totalPrice",
         "underName",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Reservation"
+      ]
     }
   ],
   [
@@ -21149,8 +21298,7 @@
         "target",
         "url",
         "winner"
-      ],
-      "subTypeOf": "http://schema.org/AchieveAction"
+      ]
     }
   ],
   [
@@ -21255,8 +21403,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -21275,8 +21422,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -21305,8 +21451,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/InteractAction"
+      ]
     }
   ],
   [
@@ -21324,8 +21469,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Quantity"
+      ]
     }
   ],
   [
@@ -21444,8 +21588,7 @@
         "width",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -21520,8 +21663,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/Organization"
+      ]
     }
   ],
   [
@@ -21583,8 +21725,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Room"
+      ]
     }
   ],
   [
@@ -21701,10 +21842,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -21811,8 +21956,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -21834,8 +21978,7 @@
         "sameAs",
         "suitableForDiet",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -21941,8 +22084,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -22055,8 +22197,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -22129,8 +22270,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/EducationalOrganization"
+      ]
     }
   ],
   [
@@ -22260,7 +22400,12 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/SoftwareApplication"
+      "recommended": [
+        "aggregateRating",
+        "applicationCategory",
+        "offers",
+        "operatingSystem"
+      ]
     }
   ],
   [
@@ -22377,10 +22522,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -22405,8 +22554,7 @@
         "validFrom",
         "validThrough",
         "value"
-      ],
-      "subTypeOf": "http://schema.org/StructuredValue"
+      ]
     }
   ],
   [
@@ -22464,8 +22612,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/PlaceOfWorship"
+      ]
     }
   ],
   [
@@ -22589,10 +22736,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LodgingBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -22710,10 +22861,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -22831,10 +22986,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/AutomotiveBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -22892,8 +23051,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Landform"
+      ]
     }
   ],
   [
@@ -22924,8 +23082,7 @@
         "target",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Action"
+      ]
     }
   ],
   [
@@ -23040,10 +23197,13 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/CreativeWork",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "dateCreated",
+        "director"
       ]
     }
   ],
@@ -23157,8 +23317,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/Clip"
+      ]
     }
   ],
   [
@@ -23275,10 +23434,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -23393,8 +23556,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWorkSeries"
+      ]
     }
   ],
   [
@@ -23513,12 +23675,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/EntertainmentBusiness",
       "required": [
         "image",
-        "name",
-        "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -23636,10 +23800,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -23698,8 +23866,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -23811,7 +23978,13 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/MusicPlaylist"
+      "required": [
+        "description",
+        "name"
+      ],
+      "recommended": [
+        "sameAs"
+      ]
     }
   ],
   [
@@ -23830,8 +24003,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -23850,8 +24022,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -23965,8 +24136,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -24020,11 +24190,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -24103,8 +24279,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/PerformingGroup"
+      ]
     }
   ],
   [
@@ -24211,8 +24386,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -24322,8 +24496,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -24436,8 +24609,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/MusicPlaylist"
+      ]
     }
   ],
   [
@@ -24456,8 +24628,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -24574,10 +24745,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -24636,8 +24811,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -24756,8 +24930,7 @@
         "width",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/MediaObject"
+      ]
     }
   ],
   [
@@ -24829,8 +25002,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/Organization"
+      ]
     }
   ],
   [
@@ -24947,10 +25119,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -25068,13 +25244,16 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/Article",
       "required": [
         "author",
         "datePublished",
         "headline",
         "image",
         "publisher"
+      ],
+      "recommended": [
+        "dateModified",
+        "mainEntityOfPage"
       ]
     }
   ],
@@ -25192,10 +25371,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/EntertainmentBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -25313,10 +25496,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LegalService",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -25422,8 +25609,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/DigitalDocument"
+      ]
     }
   ],
   [
@@ -25431,8 +25617,7 @@
     {
       "props": [
         ""
-      ],
-      "subTypeOf": ""
+      ]
     }
   ],
   [
@@ -25462,8 +25647,7 @@
         "transFatContent",
         "unsaturatedFatContent",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/StructuredValue"
+      ]
     }
   ],
   [
@@ -25520,8 +25704,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/BodyOfWater"
+      ]
     }
   ],
   [
@@ -25580,8 +25763,7 @@
         "validFrom",
         "validThrough",
         "warranty"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -25602,8 +25784,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ItemList"
+      ]
     }
   ],
   [
@@ -25622,8 +25803,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -25740,10 +25920,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -25801,8 +25985,7 @@
         "url",
         "workFeatured",
         "workPerformed"
-      ],
-      "subTypeOf": "http://schema.org/PublicationEvent"
+      ]
     }
   ],
   [
@@ -25825,8 +26008,7 @@
         "url",
         "validFrom",
         "validThrough"
-      ],
-      "subTypeOf": "http://schema.org/StructuredValue"
+      ]
     }
   ],
   [
@@ -25866,8 +26048,7 @@
         "sameAs",
         "seller",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -25899,8 +26080,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/TradeAction"
+      ]
     }
   ],
   [
@@ -25923,8 +26103,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -25943,8 +26122,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -26016,8 +26194,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/Thing"
+      ]
     }
   ],
   [
@@ -26040,8 +26217,7 @@
         "sameAs",
         "startDate",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Role"
+      ]
     }
   ],
   [
@@ -26070,8 +26246,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Action"
+      ]
     }
   ],
   [
@@ -26188,10 +26363,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -26214,8 +26393,7 @@
         "sameAs",
         "typeOfGood",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/StructuredValue"
+      ]
     }
   ],
   [
@@ -26244,8 +26422,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CreateAction"
+      ]
     }
   ],
   [
@@ -26349,8 +26526,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -26380,8 +26556,7 @@
         "trackingNumber",
         "trackingUrl",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -26400,8 +26575,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/DeliveryMethod"
+      ]
     }
   ],
   [
@@ -26430,8 +26604,7 @@
         "suggestedMaxAge",
         "suggestedMinAge",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/PeopleAudience"
+      ]
     }
   ],
   [
@@ -26489,8 +26662,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -26548,8 +26720,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -26666,10 +26837,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -26703,8 +26878,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/TradeAction"
+      ]
     }
   ],
   [
@@ -26752,8 +26926,7 @@
         "supersededBy",
         "termsOfService",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/FinancialProduct, http://schema.org/PaymentMethod"
+      ]
     }
   ],
   [
@@ -26782,8 +26955,7 @@
         "validFrom",
         "validThrough",
         "valueAddedTaxIncluded"
-      ],
-      "subTypeOf": "http://schema.org/PriceSpecification"
+      ]
     }
   ],
   [
@@ -26802,8 +26974,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -26847,8 +27018,7 @@
         "serviceType",
         "termsOfService",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/FinancialProduct"
+      ]
     }
   ],
   [
@@ -26867,8 +27037,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -26895,8 +27064,7 @@
         "suggestedMaxAge",
         "suggestedMinAge",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Audience"
+      ]
     }
   ],
   [
@@ -26928,8 +27096,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/PlayAction"
+      ]
     }
   ],
   [
@@ -26952,8 +27119,7 @@
         "sameAs",
         "startDate",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Role"
+      ]
     }
   ],
   [
@@ -27011,8 +27177,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -27084,8 +27249,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/Organization"
+      ]
     }
   ],
   [
@@ -27192,8 +27356,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWorkSeries"
+      ]
     }
   ],
   [
@@ -27218,8 +27381,7 @@
         "validFrom",
         "validIn",
         "validUntil"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -27293,8 +27455,7 @@
         "weight",
         "workLocation",
         "worksFor"
-      ],
-      "subTypeOf": "http://schema.org/Thing"
+      ]
     }
   ],
   [
@@ -27411,10 +27572,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -27535,10 +27700,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/MedicalBusiness, http://schema.org/MedicalOrganization",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -27643,8 +27812,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -27673,8 +27841,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CreateAction"
+      ]
     }
   ],
   [
@@ -27797,10 +27964,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/MedicalBusiness, http://schema.org/MedicalOrganization",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -27858,8 +28029,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Thing"
+      ]
     }
   ],
   [
@@ -27917,8 +28087,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -27948,8 +28117,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/OrganizeAction"
+      ]
     }
   ],
   [
@@ -27980,8 +28148,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Action"
+      ]
     }
   ],
   [
@@ -28039,8 +28206,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -28157,10 +28323,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -28279,12 +28449,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/EmergencyService",
       "required": [
         "image",
-        "name",
-        "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -28342,8 +28514,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/BodyOfWater"
+      ]
     }
   ],
   [
@@ -28460,10 +28631,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/GovernmentOffice",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -28498,8 +28673,7 @@
         "streetAddress",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ContactPoint"
+      ]
     }
   ],
   [
@@ -28531,8 +28705,7 @@
         "targetCollection",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/InsertAction"
+      ]
     }
   ],
   [
@@ -28605,8 +28778,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/EducationalOrganization"
+      ]
     }
   ],
   [
@@ -28711,8 +28883,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/DigitalDocument"
+      ]
     }
   ],
   [
@@ -28739,8 +28910,7 @@
         "validFrom",
         "validThrough",
         "valueAddedTaxIncluded"
-      ],
-      "subTypeOf": "http://schema.org/StructuredValue"
+      ]
     }
   ],
   [
@@ -28793,7 +28963,6 @@
         "weight",
         "width"
       ],
-      "subTypeOf": "http://schema.org/Thing",
       "required": [
         "name"
       ]
@@ -28851,8 +29020,7 @@
         "url",
         "weight",
         "width"
-      ],
-      "subTypeOf": "http://schema.org/Product"
+      ]
     }
   ],
   [
@@ -28969,10 +29137,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -29087,8 +29259,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/WebPage"
+      ]
     }
   ],
   [
@@ -29111,8 +29282,7 @@
         "programName",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -29138,8 +29308,7 @@
         "url",
         "value",
         "valueReference"
-      ],
-      "subTypeOf": "http://schema.org/StructuredValue"
+      ]
     }
   ],
   [
@@ -29168,8 +29337,7 @@
         "valueName",
         "valuePattern",
         "valueRequired"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -29286,10 +29454,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/SportsActivityLocation",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -29347,8 +29519,7 @@
         "url",
         "workFeatured",
         "workPerformed"
-      ],
-      "subTypeOf": "http://schema.org/Event"
+      ]
     }
   ],
   [
@@ -29456,8 +29627,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -29565,8 +29735,7 @@
         "volumeNumber",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -29680,8 +29849,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/WebPage"
+      ]
     }
   ],
   [
@@ -29708,8 +29876,7 @@
         "supersededBy",
         "url",
         "valueReference"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -29734,8 +29901,7 @@
         "url",
         "value",
         "valueReference"
-      ],
-      "subTypeOf": "http://schema.org/StructuredValue"
+      ]
     }
   ],
   [
@@ -29753,8 +29919,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -29863,8 +30028,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -29895,8 +30059,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/TradeAction"
+      ]
     }
   ],
   [
@@ -29954,8 +30117,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -29979,8 +30141,7 @@
         "providesBroadcastService",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/BroadcastChannel"
+      ]
     }
   ],
   [
@@ -30093,8 +30254,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/Clip"
+      ]
     }
   ],
   [
@@ -30208,8 +30368,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/Episode"
+      ]
     }
   ],
   [
@@ -30324,8 +30483,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWorkSeason"
+      ]
     }
   ],
   [
@@ -30446,8 +30604,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWorkSeries"
+      ]
     }
   ],
   [
@@ -30564,10 +30721,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -30590,8 +30751,7 @@
         "sameAs",
         "url",
         "worstRating"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -30620,8 +30780,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/AssessAction"
+      ]
     }
   ],
   [
@@ -30651,8 +30810,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ConsumeAction"
+      ]
     }
   ],
   [
@@ -30769,10 +30927,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -30806,8 +30968,7 @@
         "target",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/TransferAction"
+      ]
     }
   ],
   [
@@ -30930,12 +31091,23 @@
         "workTranslation",
         "yield"
       ],
-      "subTypeOf": "http://schema.org/HowTo",
       "required": [
         "image",
-        "name",
+        "name"
+      ],
+      "recommended": [
+        "aggregateRating",
+        "author",
+        "cookTime",
+        "description",
+        "keywords",
+        "nutrition",
+        "prepTime",
+        "recipeCategory",
+        "recipeCuisine",
         "recipeIngredient",
-        "recipeInstructions"
+        "recipeInstructions",
+        "video"
       ]
     }
   ],
@@ -31053,10 +31225,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -31086,8 +31262,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/InteractAction"
+      ]
     }
   ],
   [
@@ -31117,8 +31292,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/AllocateAction"
+      ]
     }
   ],
   [
@@ -31151,8 +31325,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/TradeAction"
+      ]
     }
   ],
   [
@@ -31187,8 +31360,7 @@
         "totalPrice",
         "underName",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Reservation"
+      ]
     }
   ],
   [
@@ -31221,8 +31393,7 @@
         "target",
         "targetCollection",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/UpdateAction"
+      ]
     }
   ],
   [
@@ -31256,8 +31427,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CommunicateAction"
+      ]
     }
   ],
   [
@@ -31369,8 +31539,7 @@
         "wordCount",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/Article"
+      ]
     }
   ],
   [
@@ -31401,8 +31570,7 @@
         "totalPrice",
         "underName",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -31434,8 +31602,7 @@
         "totalPrice",
         "underName",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Reservation"
+      ]
     }
   ],
   [
@@ -31454,8 +31621,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -31485,8 +31651,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/PlanAction"
+      ]
     }
   ],
   [
@@ -31543,8 +31708,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/BodyOfWater"
+      ]
     }
   ],
   [
@@ -31601,8 +31765,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Place"
+      ]
     }
   ],
   [
@@ -31726,10 +31889,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LodgingBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -31852,10 +32019,15 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "servesCuisine",
+        "telephone"
       ]
     }
   ],
@@ -31875,8 +32047,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -31905,8 +32076,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ControlAction"
+      ]
     }
   ],
   [
@@ -31938,8 +32108,7 @@
         "target",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/TransferAction"
+      ]
     }
   ],
   [
@@ -32047,7 +32216,6 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/CreativeWork",
       "required": [
         "author"
       ]
@@ -32080,8 +32248,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/AssessAction"
+      ]
     }
   ],
   [
@@ -32138,8 +32305,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/BodyOfWater"
+      ]
     }
   ],
   [
@@ -32161,8 +32327,7 @@
         "sameAs",
         "startDate",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -32279,10 +32444,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HomeAndConstructionBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -32345,8 +32514,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Accommodation"
+      ]
     }
   ],
   [
@@ -32383,8 +32551,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/InformAction"
+      ]
     }
   ],
   [
@@ -32403,8 +32570,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -32458,11 +32624,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -32493,8 +32665,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/PlanAction"
+      ]
     }
   ],
   [
@@ -32606,7 +32777,6 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/Article",
       "required": [
         "datePublished",
         "headline",
@@ -32684,8 +32854,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/EducationalOrganization"
+      ]
     }
   ],
   [
@@ -32742,11 +32911,17 @@
         "workPerformed",
         "workPresented"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -32851,8 +33026,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -32909,8 +33083,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/BodyOfWater"
+      ]
     }
   ],
   [
@@ -32939,9 +33112,13 @@
         "sameAs",
         "startTime",
         "target",
-        "url"
+        "url",
+        "query-input"
       ],
-      "subTypeOf": "http://schema.org/Action"
+      "required": [
+        "query-input",
+        "target"
+      ]
     }
   ],
   [
@@ -33055,8 +33232,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/WebPage"
+      ]
     }
   ],
   [
@@ -33160,8 +33336,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -33183,8 +33358,7 @@
         "seatSection",
         "seatingType",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -33301,10 +33475,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -33338,8 +33516,7 @@
         "target",
         "url",
         "warrantyPromise"
-      ],
-      "subTypeOf": "http://schema.org/TradeAction"
+      ]
     }
   ],
   [
@@ -33372,8 +33549,7 @@
         "target",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/TransferAction"
+      ]
     }
   ],
   [
@@ -33477,8 +33653,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -33519,8 +33694,7 @@
         "serviceType",
         "termsOfService",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -33546,8 +33720,7 @@
         "serviceSmsNumber",
         "serviceUrl",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -33580,8 +33753,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CommunicateAction"
+      ]
     }
   ],
   [
@@ -33698,10 +33870,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -33819,10 +33995,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -33888,8 +34068,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/House"
+      ]
     }
   ],
   [
@@ -33993,8 +34172,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/WebPageElement"
+      ]
     }
   ],
   [
@@ -34111,10 +34289,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/SportsActivityLocation",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -34169,11 +34351,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -34287,7 +34475,6 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/Article",
       "required": [
         "datePublished",
         "headline",
@@ -34421,7 +34608,12 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      "recommended": [
+        "aggregateRating",
+        "applicationCategory",
+        "offers",
+        "operatingSystem"
+      ]
     }
   ],
   [
@@ -34532,8 +34724,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -34586,8 +34777,7 @@
         "url",
         "weight",
         "width"
-      ],
-      "subTypeOf": "http://schema.org/Product"
+      ]
     }
   ],
   [
@@ -34606,8 +34796,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -34724,10 +34913,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -34845,10 +35038,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -34966,10 +35163,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/SportsActivityLocation",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -35027,11 +35228,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -35105,8 +35312,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/Organization"
+      ]
     }
   ],
   [
@@ -35181,8 +35387,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/SportsOrganization"
+      ]
     }
   ],
   [
@@ -35287,8 +35492,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/DigitalDocument"
+      ]
     }
   ],
   [
@@ -35406,12 +35610,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/CivicStructure, http://schema.org/SportsActivityLocation",
       "required": [
         "image",
-        "name",
-        "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -35469,8 +35675,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/AdministrativeArea"
+      ]
     }
   ],
   [
@@ -35497,8 +35702,7 @@
         "supersededBy",
         "url",
         "valueReference"
-      ],
-      "subTypeOf": "http://schema.org/QualitativeValue"
+      ]
     }
   ],
   [
@@ -35615,10 +35819,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -35637,8 +35845,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -35667,8 +35874,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/InteractAction"
+      ]
     }
   ],
   [
@@ -35726,8 +35932,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -35792,8 +35997,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Accommodation"
+      ]
     }
   ],
   [
@@ -35822,8 +36026,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ControlAction"
+      ]
     }
   ],
   [
@@ -35881,8 +36084,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/PlaceOfWorship"
+      ]
     }
   ],
   [
@@ -35996,8 +36198,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/Clip"
+      ]
     }
   ],
   [
@@ -36114,8 +36315,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/Episode"
+      ]
     }
   ],
   [
@@ -36232,8 +36432,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork, http://schema.org/CreativeWorkSeason"
+      ]
     }
   ],
   [
@@ -36355,8 +36554,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork, http://schema.org/CreativeWorkSeries"
+      ]
     }
   ],
   [
@@ -36460,8 +36658,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/WebPageElement"
+      ]
     }
   ],
   [
@@ -36492,8 +36689,7 @@
         "target",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/TransferAction"
+      ]
     }
   ],
   [
@@ -36610,10 +36806,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/HealthAndBeautyBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -36655,8 +36855,7 @@
         "serviceType",
         "termsOfService",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Service"
+      ]
     }
   ],
   [
@@ -36690,8 +36889,7 @@
         "totalPrice",
         "underName",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Reservation"
+      ]
     }
   ],
   [
@@ -36732,8 +36930,7 @@
         "serviceType",
         "termsOfService",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Service"
+      ]
     }
   ],
   [
@@ -36791,8 +36988,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -36906,7 +37102,6 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/Article",
       "required": [
         "datePublished",
         "headline",
@@ -36935,8 +37130,7 @@
         "providesBroadcastService",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/BroadcastChannel"
+      ]
     }
   ],
   [
@@ -37053,10 +37247,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -37174,10 +37372,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/SportsActivityLocation",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -37186,8 +37388,7 @@
     {
       "props": [
         ""
-      ],
-      "subTypeOf": ""
+      ]
     }
   ],
   [
@@ -37292,8 +37493,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/DigitalDocument"
+      ]
     }
   ],
   [
@@ -37347,11 +37547,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -37424,8 +37630,7 @@
         "unnamedSourcesPolicy",
         "url",
         "vatID"
-      ],
-      "subTypeOf": "http://schema.org/PerformingGroup"
+      ]
     }
   ],
   [
@@ -37443,8 +37648,7 @@
         "potentialAction",
         "sameAs",
         "url"
-      ],
-      "subTypeOf": ""
+      ]
     }
   ],
   [
@@ -37470,8 +37674,7 @@
         "totalPrice",
         "underName",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -37500,8 +37703,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/AchieveAction"
+      ]
     }
   ],
   [
@@ -37509,8 +37711,7 @@
     {
       "props": [
         ""
-      ],
-      "subTypeOf": ""
+      ]
     }
   ],
   [
@@ -37542,8 +37743,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/TradeAction"
+      ]
     }
   ],
   [
@@ -37660,10 +37860,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -37723,8 +37927,7 @@
         "telephone",
         "touristType",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Place"
+      ]
     }
   ],
   [
@@ -37841,10 +38044,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -37962,10 +38169,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -37996,8 +38207,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/FindAction"
+      ]
     }
   ],
   [
@@ -38028,8 +38238,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Action"
+      ]
     }
   ],
   [
@@ -38060,8 +38269,7 @@
         "totalPrice",
         "underName",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Reservation"
+      ]
     }
   ],
   [
@@ -38119,8 +38327,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ],
   [
@@ -38147,8 +38354,7 @@
         "trainName",
         "trainNumber",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Intangible"
+      ]
     }
   ],
   [
@@ -38179,8 +38385,7 @@
         "target",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Action"
+      ]
     }
   ],
   [
@@ -38212,8 +38417,7 @@
         "target",
         "toLocation",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/MoveAction"
+      ]
     }
   ],
   [
@@ -38330,10 +38534,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/LocalBusiness",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -38357,8 +38565,7 @@
         "unitCode",
         "unitText",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/StructuredValue"
+      ]
     }
   ],
   [
@@ -38366,8 +38573,7 @@
     {
       "props": [
         ""
-      ],
-      "subTypeOf": "http://schema.org/Text"
+      ]
     }
   ],
   [
@@ -38396,8 +38602,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/InteractAction"
+      ]
     }
   ],
   [
@@ -38429,8 +38634,7 @@
         "validFrom",
         "validThrough",
         "valueAddedTaxIncluded"
-      ],
-      "subTypeOf": "http://schema.org/PriceSpecification"
+      ]
     }
   ],
   [
@@ -38461,8 +38665,7 @@
         "target",
         "targetCollection",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Action"
+      ]
     }
   ],
   [
@@ -38492,8 +38695,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ConsumeAction"
+      ]
     }
   ],
   [
@@ -38546,8 +38748,7 @@
         "url",
         "workFeatured",
         "workPerformed"
-      ],
-      "subTypeOf": "http://schema.org/UserInteraction"
+      ]
     }
   ],
   [
@@ -38600,8 +38801,7 @@
         "url",
         "workFeatured",
         "workPerformed"
-      ],
-      "subTypeOf": "http://schema.org/UserInteraction"
+      ]
     }
   ],
   [
@@ -38659,8 +38859,7 @@
         "url",
         "workFeatured",
         "workPerformed"
-      ],
-      "subTypeOf": "http://schema.org/UserInteraction"
+      ]
     }
   ],
   [
@@ -38713,8 +38912,7 @@
         "url",
         "workFeatured",
         "workPerformed"
-      ],
-      "subTypeOf": "http://schema.org/UserInteraction"
+      ]
     }
   ],
   [
@@ -38767,8 +38965,7 @@
         "url",
         "workFeatured",
         "workPerformed"
-      ],
-      "subTypeOf": "http://schema.org/Event"
+      ]
     }
   ],
   [
@@ -38821,8 +39018,7 @@
         "url",
         "workFeatured",
         "workPerformed"
-      ],
-      "subTypeOf": "http://schema.org/UserInteraction"
+      ]
     }
   ],
   [
@@ -38875,8 +39071,7 @@
         "url",
         "workFeatured",
         "workPerformed"
-      ],
-      "subTypeOf": "http://schema.org/UserInteraction"
+      ]
     }
   ],
   [
@@ -38929,8 +39124,7 @@
         "url",
         "workFeatured",
         "workPerformed"
-      ],
-      "subTypeOf": "http://schema.org/UserInteraction"
+      ]
     }
   ],
   [
@@ -38983,8 +39177,7 @@
         "url",
         "workFeatured",
         "workPerformed"
-      ],
-      "subTypeOf": "http://schema.org/UserInteraction"
+      ]
     }
   ],
   [
@@ -39037,8 +39230,7 @@
         "url",
         "workFeatured",
         "workPerformed"
-      ],
-      "subTypeOf": "http://schema.org/UserInteraction"
+      ]
     }
   ],
   [
@@ -39130,7 +39322,6 @@
         "wheelbase",
         "width"
       ],
-      "subTypeOf": "http://schema.org/Product",
       "required": [
         "name"
       ]
@@ -39247,8 +39438,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CollectionPage"
+      ]
     }
   ],
   [
@@ -39393,10 +39583,18 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/Game, http://schema.org/SoftwareApplication",
       "required": [
-        "name",
         "name"
+      ],
+      "recommended": [
+        "aggregateRating",
+        "applicationCategory",
+        "description",
+        "genre",
+        "offers",
+        "operatingSystem",
+        "sameAs",
+        "url"
       ]
     }
   ],
@@ -39510,8 +39708,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/Clip"
+      ]
     }
   ],
   [
@@ -39640,8 +39837,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWorkSeries"
+      ]
     }
   ],
   [
@@ -39771,12 +39967,14 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/MediaObject",
       "required": [
         "description",
         "name",
         "thumbnailUrl",
         "uploadDate"
+      ],
+      "recommended": [
+        "description"
       ]
     }
   ],
@@ -39807,8 +40005,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ConsumeAction"
+      ]
     }
   ],
   [
@@ -39862,11 +40059,17 @@
         "workFeatured",
         "workPerformed"
       ],
-      "subTypeOf": "http://schema.org/Event",
       "required": [
         "location",
         "name",
         "startDate"
+      ],
+      "recommended": [
+        "description",
+        "endDate",
+        "image",
+        "offers",
+        "performer"
       ]
     }
   ],
@@ -39984,8 +40187,7 @@
         "width",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -40042,8 +40244,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Landform"
+      ]
     }
   ],
   [
@@ -40075,8 +40276,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ChooseAction"
+      ]
     }
   ],
   [
@@ -40180,8 +40380,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/WebPageElement"
+      ]
     }
   ],
   [
@@ -40285,8 +40484,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/WebPageElement"
+      ]
     }
   ],
   [
@@ -40390,8 +40588,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/WebPageElement"
+      ]
     }
   ],
   [
@@ -40495,8 +40692,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/WebPageElement"
+      ]
     }
   ],
   [
@@ -40525,8 +40721,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ReactAction"
+      ]
     }
   ],
   [
@@ -40546,8 +40741,7 @@
         "sameAs",
         "url",
         "warrantyScope"
-      ],
-      "subTypeOf": "http://schema.org/StructuredValue"
+      ]
     }
   ],
   [
@@ -40566,8 +40760,7 @@
         "sameAs",
         "supersededBy",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/Enumeration"
+      ]
     }
   ],
   [
@@ -40597,8 +40790,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/ConsumeAction"
+      ]
     }
   ],
   [
@@ -40655,8 +40847,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/BodyOfWater"
+      ]
     }
   ],
   [
@@ -40686,8 +40877,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/UseAction"
+      ]
     }
   ],
   [
@@ -40817,7 +41007,12 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/SoftwareApplication"
+      "recommended": [
+        "aggregateRating",
+        "applicationCategory",
+        "offers",
+        "operatingSystem"
+      ]
     }
   ],
   [
@@ -40931,8 +41126,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -41036,8 +41230,7 @@
         "video",
         "workExample",
         "workTranslation"
-      ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      ]
     }
   ],
   [
@@ -41143,7 +41336,9 @@
         "workExample",
         "workTranslation"
       ],
-      "subTypeOf": "http://schema.org/CreativeWork"
+      "required": [
+        "url"
+      ]
     }
   ],
   [
@@ -41260,10 +41455,14 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/Store",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "telephone"
       ]
     }
   ],
@@ -41294,8 +41493,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/AchieveAction"
+      ]
     }
   ],
   [
@@ -41417,10 +41615,15 @@
         "url",
         "vatID"
       ],
-      "subTypeOf": "http://schema.org/FoodEstablishment",
       "required": [
         "image",
         "name"
+      ],
+      "recommended": [
+        "address",
+        "priceRange",
+        "servesCuisine",
+        "telephone"
       ]
     }
   ],
@@ -41452,8 +41655,7 @@
         "startTime",
         "target",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CreateAction"
+      ]
     }
   ],
   [
@@ -41511,8 +41713,7 @@
         "specialOpeningHoursSpecification",
         "telephone",
         "url"
-      ],
-      "subTypeOf": "http://schema.org/CivicStructure"
+      ]
     }
   ]
 ]

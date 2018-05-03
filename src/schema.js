@@ -20,6 +20,7 @@ function validateObjectKeys(typeOrTypes, keys) {
     const errors = [];
     const safelist = [];
     const required = [];
+    const recommended = [];
 
     let types = [];
 
@@ -58,6 +59,10 @@ function validateObjectKeys(typeOrTypes, keys) {
         if (typeSettings.required) {
             typeSettings.required.forEach(key => required.push(key));
         }
+
+        if (typeSettings.recommended) {
+            typeSettings.recommended.forEach(key => recommended.push(key));
+        }
     });
 
     const cleanKeys = keys
@@ -71,6 +76,10 @@ function validateObjectKeys(typeOrTypes, keys) {
     required
         .filter(key => !cleanKeys.includes(key))
         .forEach(key => errors.push(`Missing required property "${key}"`));
+
+    recommended
+        .filter(key => !cleanKeys.includes(key))
+        .forEach(key => errors.push(`Missing recommended property "${key}"`));
 
     return errors;
 }
