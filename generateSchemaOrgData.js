@@ -29,7 +29,7 @@ async function main() {
     types.slice(1).forEach(([id,label,comment,subTypeOf,equivalentClass,props]) => {
         result.set(id, {
             props: props.split(',').map(prop => prop.trim().replace('http://schema.org/', '')),
-            subTypeOf
+            //subTypeOf
         });
     });
 

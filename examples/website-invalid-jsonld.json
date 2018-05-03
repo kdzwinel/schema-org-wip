@@ -1,0 +1,10 @@
+{
+    "@context": "http://schema.org",
+    "@TYPE": "WebSite",
+    "url": "https://www.themoviedb.org/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.themoviedb.org/search?query={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+ }
