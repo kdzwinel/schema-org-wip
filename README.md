@@ -9,14 +9,17 @@ npm i
 npm run start
 ```
 
-main goals:
+<img src='https://i.imgur.com/gvKpyfw.png' width=450 title='example output' alt='example output' />
+
+### Goals
+primary:
 - [x] json validation
 - [x] json-ld validation (keywords)
 - [x] schema.org types validation
 - [x] schema.org keys validation
 - [x] google required fields validation (only top level recommendations)
 
-stretch goals:
+secondary:
 - [ ] schema.org values validation
 
 ### Updating
