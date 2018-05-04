@@ -35,14 +35,6 @@ function processError(type, errorType, args) {
                 typeObj.required.push(field);
             }
         }
-
-        // make sure that required/recommended prop is on the prop whitelist
-        // this fixes e.g. issue with http://schema.org/query-input which is not
-        // a part of the core vocab (probably a schema.org bug?), but is widely used 
-        if (!typeObj.props.includes(field)) {
-            typeObj.props.push(field);
-            console.log('MISSING PROP', type, field);
-        }
     } else {
         // Unsupported errors
         // console.log(type, errorType, args);

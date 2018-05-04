@@ -66,10 +66,13 @@ function validateObjectKeys(typeOrTypes, keys) {
     });
 
     const cleanKeys = keys
+        // skip keywords
         .filter(key => key.indexOf('@') !== 0)
         .map(key => cleanName(key));
 
     cleanKeys
+        // input/output constraints http://schema.org/docs/actions.html#part-4
+        .map(key => key.replace(/-(input|output)$/, ''))
         .filter(key => !safelist.includes(key))
         .forEach(key => errors.push(`Unexpected property "${key}"`));
 

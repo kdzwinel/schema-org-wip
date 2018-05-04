@@ -33112,8 +33112,7 @@
         "sameAs",
         "startTime",
         "target",
-        "url",
-        "query-input"
+        "url"
       ],
       "required": [
         "query-input",
